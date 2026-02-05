@@ -8,7 +8,7 @@ export default function Footer() {
       ariaLabel: 'Send me an email'
     },
     {
-      icon: 'linkedin.svg',
+      icon: 'linkedin.png',
       href: 'https://www.linkedin.com/in/cleberson-carvalho-1102nov/',
       ariaLabel: 'Visit my LinkedIn profile',
       target: '_blank'
