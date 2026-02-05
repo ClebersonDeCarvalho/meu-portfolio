@@ -1,0 +1,45 @@
+.scrollReveal {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: opacity, transform;
+}
+
+.scrollReveal.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.fromBottom {
+  transform: translateY(40px);
+}
+
+.fromTop {
+  transform: translateY(-40px);
+}
+
+.fromLeft {
+  transform: translateX(-40px);
+}
+
+.fromRight {
+  transform: translateX(40px);
+}
+
+.fade {
+  transform: scale(0.95);
+}
+
+.scrollReveal.visible.fromBottom,
+.scrollReveal.visible.fromTop {
+  transform: translateY(0);
+}
+
+.scrollReveal.visible.fromLeft,
+.scrollReveal.visible.fromRight {
+  transform: translateX(0);
+}
+
+.scrollReveal.visible.fade {
+  transform: scale(1);
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
+.introContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #050505;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 9999;
+  font-family: 'Condiment', cursive;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.signature {
+  font-size: clamp(1.5rem, 4vw, 4rem);
+  color: #fff;
+  white-space: nowrap;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.char {
+  opacity: 0;
+  display: inline-block;
+  transform: translateX(-5px);
+  filter: blur(2px);
+}
+
+@keyframes writeStroke {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px) scale(0.9);
+    filter: blur(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .signature {
+    font-size: clamp(1.2rem, 4vw, 2.5rem);
+  }
+  
+  .container {
+    padding: 0 10px;
+  }
+}

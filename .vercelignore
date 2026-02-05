@@ -1,0 +1,8 @@
+# Não é necessário enviar esses arquivos para a Vercel
+/node_modules
+.git
+.next
+.cache
+*.log
+.env*.local
+README.md
