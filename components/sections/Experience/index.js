@@ -5,7 +5,7 @@ export default function Experience() {
   const experiences = [
     {
       id: '01',
-      icon: '/img/exp/uepg.webp',
+      icon: '/img/exp/uepg.svg',
       iconType: 'local',
       title: 'Desenvolvedor Full Stack',
       company: 'Projeto da faculdade',
