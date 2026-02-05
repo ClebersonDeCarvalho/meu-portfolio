@@ -3,24 +3,24 @@ import styles from './style.module.css';
 export default function Footer() {
   const socialLinks = [
     {
-      icon: 'gmail',
+      icon: 'gmail.svg',
       href: 'mailto:clebersoncarvalhomc5@gmail.com?subject=Contato%20via%20Portfólio&body=Olá%20Cleberson,%0A%0A',
       ariaLabel: 'Send me an email'
     },
     {
-      icon: 'linkedin',
+      icon: 'linkedin.svg',
       href: 'https://www.linkedin.com/in/cleberson-carvalho-1102nov/',
       ariaLabel: 'Visit my LinkedIn profile',
       target: '_blank'
     },
     {
-      icon: 'instagram',
+      icon: 'instagram.svg',
       href: 'https://instagram.com/opeterrr',
       ariaLabel: 'Follow me on Instagram',
       target: '_blank'
     },
     {
-      icon: 'github',
+      icon: 'github.svg',
       href: 'https://github.com/ClebersonDeCarvalho',
       ariaLabel: 'Visit my GitHub profile',
       target: '_blank'
@@ -53,7 +53,7 @@ export default function Footer() {
               })}
             >
               <img 
-                src={`/img/icon/${social.icon}.svg`}
+                src={`/img/icon/${social.icon}`}
                 alt={social.name}
                 className={styles.socialIcon}
                 loading="lazy"
