@@ -30,7 +30,7 @@ export default function Experience() {
       title: 'Desenvolvedor Shopify',
       company: 'Check Commerce',
       period: '2026',
-      description: 'Desenvolvimento de soluções personalizadas com Liquid e JavaScript, criando seções customizáveis e interfaces alinhadas à identidade da marca, animações e interações. Desenvolvimento de APIs customizadas para lojas Shopify, automatizando a atualização de metafields via API Admin utilizando Node.js, PostgreSQL e Render.',
+      description: 'Desenvolvimento Front-End no ecossistema Shopify, com foco na implementação, manutenção e correção de bugs em interfaces e seções customizáveis utilizando HTML, CSS, JavaScript e Liquid.',
       featured: true,
     },
   ];

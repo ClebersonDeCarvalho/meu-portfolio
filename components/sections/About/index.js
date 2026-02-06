@@ -5,6 +5,11 @@ export default function About() {
   return (
     <section id="about" className={styles.aboutContainer}>
       <article className={styles.content}>
+        <ScrollReveal direction="up" delay={0.1}>
+          <div className={styles.header}>
+            <h2 className={styles.title}>About Me</h2>
+          </div>
+        </ScrollReveal>
         <div className={styles.mainContent}>
           
           <ScrollReveal direction="left" delay={0.2}>
@@ -25,9 +30,6 @@ export default function About() {
 
           <ScrollReveal direction="right" delay={0.3}>
             <div className={styles.textArea}>
-              <h2 className={styles.title}>
-                Sobre mim
-              </h2>
               <p className={styles.description}>
                 Sou desenvolvedor Full Stack especializado no ecossistema Shopify, 
                 com domínio tanto em Front-end quanto em Back-end. <br></br>

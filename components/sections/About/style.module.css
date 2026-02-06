@@ -7,6 +7,11 @@
   justify-content: center;
 }
 
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
 .content {
   max-width: 1400px;
   width: 100%;
@@ -34,11 +39,11 @@
 
 .title {
   font-family: var(--font-condiment, sans-serif);
-  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
   color: #00ffea;
-  margin-bottom: 2rem;
+  margin-top: 0.5rem;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .description {
@@ -57,10 +62,9 @@
 }
 
 .educationTitle {
-  font-family: var(--font-bebas, sans-serif);
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+  font-family: var(--font-condiment, sans-serif);
   color: #00ffea;
-  margin-bottom: 1rem;
   font-weight: 400;
 }
 
