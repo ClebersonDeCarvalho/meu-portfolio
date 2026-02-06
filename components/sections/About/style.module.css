@@ -87,6 +87,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .aboutContainer {
+    padding: 4rem 1rem 4rem 2.2rem;
+  }
+}
+
 @media (max-width: 640px) {
   .aboutContainer {
     padding: 4rem 1rem 4rem 2.2rem;
